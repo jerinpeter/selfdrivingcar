@@ -46,7 +46,7 @@ vector<Rect> Stop;
 void Capture()
 {
     Camera.grab();
-    Camera.retrieve( frame);
+    Camera.retrieve( frame);                               //capture camera frame
     cvtColor(frame, frame_Stop, COLOR_BGR2RGB);
     cvtColor(frame, frame, COLOR_BGR2RGB);
     
